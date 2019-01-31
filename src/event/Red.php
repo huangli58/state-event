@@ -1,5 +1,5 @@
 <?php
-namespace SE;
+namespace SE\Event;
 /**
  * 发红包
  */

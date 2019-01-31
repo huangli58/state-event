@@ -14,7 +14,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "SE\\": "src"
+            "SE\\": "src",
+            "SE\\Event\\" : "src/event"
         }
     }
 }

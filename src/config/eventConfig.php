@@ -13,7 +13,7 @@ return [
      * 红包金额
      */
     'eventRedPacket' => [
-        'call' => ['SE\\Red', 'send'], //实际调用的类空间。如果是静态方法，请使用: 'app\\user::sendPachet', 第二个参数不用传
+        'call' => ['SE\\Event\\Red', 'send'],
         'desc' => '发红包', //描述
     ],
 
@@ -22,7 +22,7 @@ return [
      * 优惠券ID
      */
     'eventCoupon' => [
-        'call' => ['SE\\Coupon::send'],
+        'call' => ['SE\\Event\\Coupon::send'],
         'desc' => '发优惠券',
     ],
 ];
