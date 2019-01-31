@@ -1,0 +1,20 @@
+{
+    "name": "huangli58/state-event",
+    "description": "register state and async execute event",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hl",
+            "email": "965667947@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SE\\": "src"
+        }
+    }
+}
